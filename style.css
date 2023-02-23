@@ -1,0 +1,55 @@
+#sub{
+    background-color: white;
+}
+#pic{
+    width: 600px;
+    height: 740px;
+    float: left;
+}
+#pic > img{
+    width: 100%;
+    height: 100%;
+}
+#navigate{
+    background-image: linear-gradient(to bottom left,red,green);
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 230px;
+    height: 450px;
+    float: right;
+    padding: 30px 50px 0px 50px;
+    border: 2px solid black;
+}
+#login{
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 38px;
+}
+#navigate > form{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.navigate > button{
+    width: 50px;
+    height: 20px;
+    margin-left: 50px;
+    background-color: brown;
+    padding: 10px 10px 10px 80px;
+    text-align: center;
+}
+.new{
+    padding: 10px 20px 0px 20px;
+    text-align: center;
+    
+}
+#navigate > a{
+    padding-left: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#navigate > a:hover{
+    color: white;
+}
