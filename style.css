@@ -1,55 +1,105 @@
-#sub{
-    background-color: white;
+*{
+    margin: 0%;
+    padding: 0%;
 }
-#pic{
-    width: 600px;
-    height: 740px;
-    float: left;
-}
-#pic > img{
+header{
     width: 100%;
-    height: 100%;
+    height: 150px;
+    background-color: black;
 }
-#navigate{
-    background-image: linear-gradient(to bottom left,red,green);
-    margin-top: 200px;
-    margin-right: 100px;
-    width: 230px;
-    height: 450px;
-    float: right;
-    padding: 30px 50px 0px 50px;
-    border: 2px solid black;
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+footer{
+    background-color: black;
+    margin: 50px 0px 0px 0px;
+}
+footer > p{
+    color: white;
+    text-align: center;
+}
+.login{
+    background-image: linear-gradient(to bottom right,rgb(102, 99, 99),white,rgb(175, 171, 171),grey);
+    margin: 80px 450px 80px 450px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+    border: 1px solid black;
 }
 #login{
-    padding-top: 20px;
-    padding-left: 30px;
-    text-align: center;
-    font-size: 38px;
+    background-color: black;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid black;
 }
-#navigate > form{
+#login:hover{
+    background-color: grey;
+    color: black !important;
+    transition: 0.5s;
+}
+
+.login > .label > .input{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.login > .label > .entry{
     font-size: 20px;
-    padding-top: 10px;
-    padding-left: 30px;
 }
-.navigate > button{
-    width: 50px;
-    height: 20px;
-    margin-left: 50px;
-    background-color: brown;
-    padding: 10px 10px 10px 80px;
+.login > h2{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.new{
-    padding: 10px 20px 0px 20px;
+.signup{
+    background-image: linear-gradient(to bottom right,rgb(102, 99, 99),white,rgb(175, 171, 171),grey);
+    margin: 80px 350px 80px 350px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.signup > h2{
     text-align: center;
-    
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
-#navigate > a{
-    padding-left: 80px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
+.signup > .cat{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-#navigate > a:hover{
-    color: white;
+.signup > .button > .btn{
+    background-color: black;
+    font-size: 17px;
+    width: 100%;
+    border: 1px solid black;
+}
+.signup > .button > .btn:hover{
+    background-color: grey;
+    color: black !important;
+    transition: 0.5s;
+}
+.form-label{
+    font-size: 20px;
+}
+.signup > .cat > .form-control{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.signup > .cat > .input-group > .form-control{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.signup > .cat > .form-select{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
+}
+.signup > .checker > .form-check > .form-check-input{
+    border: 2px solid black;
+    border-right: 4px solid grey;
+    border-bottom: 4px solid grey;
 }
